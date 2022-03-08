@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>contacts</title>
   </head>
   <body>
     <h1>About</h1>
@@ -20,53 +20,48 @@
 
     <!--Hero/jumbotron section-->
     <header>
-      <h1>About me</h1>
-      <p>find everything about me</p>
+      <h1>Drop me a line</h1>
+      <p>Chat about projects, give feedback and share new ideas</p>
     </header>
     <main>
       <!--MAIN PAGE CONTENT-->
       <section>
-        <h2>Changelog 1.0</h2>
-        <p>
-          I have been working with with the locals, helping them understand cyber security and how they 
-          should keep themseleves safe on the internet.
-
-          I'm aslo finishing my research about cyber bullying and am working on finding
-          how we can permanently deal with it and be rid of its terrible traumas.
-        </p>
-        <p>I work with a teen councelling company mentoring young victims of exploitation on the internet.</p>
-      </section>
-      <section>
-        <h2>Technologies</h2>
-        <table>
-          <tr>
-            <th>language</th>
-            <th>Frameworks</th>
-            <th>Data</th>
-          </tr>
-          <tr>
-            <td>C++</td>
-            <td>Bootstrap</td>
-            <td>MS Access</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>Spring</td>
-            <td>SQL lite</td>
-          </tr>
-          <tr>
-            <td>c</td>
-            <td>Crow</td>
-            <td>Mongo Db</td>
-          </tr>
-        </table>
+        <h2>Contact me</h2>
+        <form action="">
+          <div>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="projects">Project type</label>
+            <select name="project" id="project">
+              <option value="web">Web application</option>
+              <option value="mobile">Mobile application</option>
+              <option value="Desktop">Desktop application</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Your message: </label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div><input type="submit" value="Send" /></div>
+        </form>
       </section>
     </main>
 
     <!--Footer section-->
     <footer>
       <ul>
-        <!---social media handles-->
+        <!----social media handles-->
         <li><a href="https://github.com/lawrencekibe/"> Github</a></li>
         <li><a href="https://www.linkedin.com//"> Linkedln</a></li>
         <li><a href="https://twitter.com/LawrenceLawry3"> Twitter</a></li>
@@ -76,7 +71,6 @@
           <a href="https://accounts.google.com/b/0/AddMailService"> Mail</a>
         </li>
       </ul>
-    
     </footer>
   </body>
 </html>
