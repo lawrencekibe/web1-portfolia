@@ -1,0 +1,53 @@
+*{
+     font-size: 1.2rem;
+     letter-spacing: 0.1em;
+     margin:0;
+     box-sizing: border-box;
+}
+
+body{
+    background-color: ivory;
+}
+
+p{color: white;}
+
+h1{
+    color: white;
+}
+.navbar{
+    background-color:#00251a;
+    padding: 0.5em;
+}
+
+.nav-link{
+    color:#fff;
+    border: 0.1em solid green;
+    margin: 0.2em;
+    padding: 0.2em;
+
+}
+a {
+text-decoration: none;
+}
+
+nav{
+    background-color: blueviolet;
+}
+
+nav a{
+   color: black;
+
+}
+header{
+    background-image: url("https://media.istockphoto.com/vectors/glitch-noise-tv-screen-pixel-digital-vhs-effect-vector-id1320394507?k=20&m=1320394507&s=612x612&w=0&h=vOzcZC6TZkj87Eg9y7VPCtjfBnJfNU-gmyiIQ5mXBTk=");
+    background-size: cover; 
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    
+}
